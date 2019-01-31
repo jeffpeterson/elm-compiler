@@ -52,7 +52,7 @@ intro :: P.Doc
 intro =
   P.vcat
     [ P.fillSep
-        ["Hi,","thank","you","for","trying","out"
+        ["Hi,","thank","you","for","trying","out","Farm's"
         ,P.green "Elm"
         ,P.green (P.text (Pkg.versionToString Compiler.version)) <> "."
         ,"I hope you like it!"

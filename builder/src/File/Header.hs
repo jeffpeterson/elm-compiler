@@ -188,4 +188,5 @@ checkTag project path maybeDecl =
             success
 
           else
-            Task.throw (E.EffectsUnexpected path name)
+            success -- always allow effects
+            -- Task.throw (E.EffectsUnexpected path name)
